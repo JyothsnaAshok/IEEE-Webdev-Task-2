@@ -1,0 +1,167 @@
+body{
+    margin:0;
+    padding: 0;
+    text-align:center;
+}
+
+::selection{
+  background: pink;
+}
+
+.left{
+  background-image: url(Assets/3.jpg);
+  background-size: cover;
+  height: 100vh;
+  width:40vw;
+  float: left;
+}
+
+ .Hey{
+  font-size: 3.5em;
+  font-family: Montserrat;
+  color: white;
+}
+
+.join{
+  color: white;
+  font-size: 1.5em;
+  width: 80%;
+  margin: 10%;
+  margin-top: 2%;
+  font-family: Roboto;
+}
+
+.existing{
+  color: white;
+  font-size: 1.2em;
+  margin-top: 20%;
+  margin-bottom: 2%;
+}
+
+.login-btn{
+  background: none;
+  border-style: solid;
+  color: white;
+  padding: 1.5% 5% 1.5% 5%;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.login-btn:hover{
+ box-shadow: 0 0 10px white;
+ transition: all 0.5s ease-in-out;
+}
+
+.cover{
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.94;
+  padding-top: 45%;
+  height: 100%;
+  width: 100%;
+}
+
+
+.right{
+  background: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.right .title{
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#4A00E0, #8E2DE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-icons a{
+  text-decoration: none;
+  padding: 2%;
+  font-size: 1.5em;
+  color: #373a3d;
+}
+
+.social-icons a:hover{
+  color: blue;
+  transition: all 0.5s ease;
+}
+
+.right .or{
+  text-decoration: none;
+  color: gray;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+
+
+.form-group input {
+}
+
+.form-control-placeholder {
+  position: absolute;
+  left:0;
+  top:0;
+  padding: 2%;
+  transition: all 200ms;
+  opacity: 0.7;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -90%, 0);
+  opacity: 1;
+}
+
+
+.button {
+background-image: linear-gradient(to right, #4A00E0 0%, #8E2DE2 51%, #4A00E0  100%)
+}
+
+.button{
+margin-left: 35%;
+width: 30%;
+padding: 2%;
+padding-left: 5%;
+padding-right: 5%;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+transition: 0.5s;
+border-style: none;
+background-size: 200% auto;
+color: white;
+border-radius: 10px;
+display: block;
+}
+
+button:hover{
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+
+button:hover i{
+  transform: translate3d(4px,-4px,0);
+  transition: all 0.5s ease-in-out;
+}
+
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+
+}
